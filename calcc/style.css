@@ -1,0 +1,103 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 800px;
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+    background-color: #eee;
+  }
+  .cgpa_container{
+    /*justify-content: center;
+    width: 600px;
+    height: 830px;
+    /*border-radius: 10px;
+    background: #f9f8f8;*/
+    
+    width: 600px;
+    height: 820px;
+    background-color: #fff;
+    margin: 70px auto;
+    padding: 35px;
+    max-width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(31, 15, 15, 0.1);
+    margin-bottom: 100px;
+  
+  }
+
+  
+
+  .cgpa_container > .cgpa_title{
+    
+    background-color: rgba(116, 15, 210, 0.5);
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  /* cgpa_container > cgpa_input css part */
+  .cgpa_container > input{
+    border: none;
+    background-color: #fff;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    color:#312e2e;
+    margin: 10px;
+  }
+  .cgpa_container .cgpa_output{
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    max-width: 300px;
+  }
+  .cgpa_container .cgpa_output h1{
+    background-color: rgba(116, 15, 210, 0.5);
+    line-height: 50px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #fff;;
+    box-shadow: 0 0 10px rgba(31, 15, 15, 0.1);
+  }
+  .cgpa_container .cgpa_output p{
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  .cgpa_container .cgpa_output #btn_re,
+  .cgpa_container .cgpa_output #btn_sub{
+    border: none;
+    background-color: rgba(116, 15, 210, 0.5);
+    outline: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px 0px 20px 0px;
+    color: #fff;;
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+     4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  }
+  .cgpa_container .cgpa_output #btn_re{
+    margin-right: 35px;
+  }
+  .cgpa_container .cgpa_output #btn_re:active,
+  .cgpa_container .cgpa_output #btn_sub:active{
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    inset 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+    inset 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  
